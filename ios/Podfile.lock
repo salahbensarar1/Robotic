@@ -1,0 +1,29 @@
+PODS:
+  - Flutter (1.0.0)
+  - gyroscope (0.0.1):
+    - Flutter
+    - SensingKit
+  - SensingKit (0.5.1)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - gyroscope (from `.symlinks/plugins/gyroscope/ios`)
+
+SPEC REPOS:
+  trunk:
+    - SensingKit
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  gyroscope:
+    :path: ".symlinks/plugins/gyroscope/ios"
+
+SPEC CHECKSUMS:
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  gyroscope: 65fb58a49bcc3e3d3b4a2d983ba79317dcaacc83
+  SensingKit: e4acb178652e6bcf23e564f2da111e5087b39e79
+
+PODFILE CHECKSUM: 21b64fbb12492d731c9be90cbe0f2d328bef4b49
+
+COCOAPODS: 1.12.1
