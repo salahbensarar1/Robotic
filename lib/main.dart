@@ -3,6 +3,7 @@ import 'package:flutter_animate/flutter_animate.dart';
 import 'package:rctc/arm_widget.dart';
 import 'package:scaffold_gradient_background/scaffold_gradient_background.dart';
 import 'Gyro.dart';
+import 'GyroControl.dart';
 import 'RoboticMainPage.dart';
 import 'animation.dart';
 // import 'connect.dart';
@@ -60,9 +61,9 @@ class MyHomePage extends StatelessWidget {
                   onPressed: () => Navigator.push(
                       context,
                       MaterialPageRoute(
-                          builder: (context) => GyroscopeWidget())),
+                          builder: (context) => GyroControl())),
                   child: const Text(
-                    'Try to connect to a device',
+                    '🎮 Control Robot with Gyroscope',
                     style: TextStyle(
                       fontSize: 19,
                       fontWeight: FontWeight.w400,
